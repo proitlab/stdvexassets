@@ -1,8 +1,4 @@
 /*
- * @file
- * @author  (C) 2021 by CryptoLions [ https://CryptoLions.io ]
- * @version 1.6.0
- *
  * @section LICENSE
  *
  * This program is under GNU LESSER GENERAL PUBLIC LICENSE.
@@ -16,7 +12,7 @@
  * @section DESCRIPTION
  * StdVexAssets (Digital Assets)
  *
- * A simple standard for digital assets (ie. Fungible and Non-Fungible Tokens - NFTs) for EOSIO blockchains
+ * A simple standard for digital assets (ie. Fungible and Non-Fungible Tokens - NFTs) for VEXANIUM blockchains
  */
 #pragma once
 
