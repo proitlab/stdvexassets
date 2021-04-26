@@ -4,7 +4,7 @@ if(EOSIO_CDT_ROOT STREQUAL "" OR NOT EOSIO_CDT_ROOT)
    find_package(eosio.cdt)
 endif()
 
-set(ICON_BASE_URL          "https://cryptolions.io/assets/images/sa-icons-256")
+set(ICON_BASE_URL          "https://vex.proit.id/assets/images/sa-icons-256")
 
 set(ATTACH_ICON_URI        "attach.png#0b039adbbe1011a494959963917df4765dbae378004e00911464f865e58ef452")
 set(ATTACHF_ICON_URI       "attachf.png#2d190203c6ae474e01cd70963c82a54cb542d95e29174e7572acb8c7653d8a8c")
