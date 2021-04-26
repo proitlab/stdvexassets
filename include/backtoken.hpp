@@ -30,9 +30,9 @@ class[[eosio::contract("backtoken")]] backtoken : public contract{
 	ACTION getversion();
 	using getversion_action = action_wrapper<"getversion"_n, &backtoken::getversion>;
 
-	[[eosio::on_notify("simpleassets::transfer")]] void ontransfersa(name from, name to, vector<uint64_t>& assetids, string memo);
+	[[eosio::on_notify("stdvexassets::transfer")]] void ontransfersa(name from, name to, vector<uint64_t>& assetids, string memo);
 	[[eosio::on_notify("*::transfer")]] void ontransfer(name from, name to, asset quantity, string memo);
-	[[eosio::on_notify("simpleassets::transferf")]] void ontransferf(name from, name to, name author, asset quantity, string memo);
+	[[eosio::on_notify("stdvexassets::transferf")]] void ontransferf(name from, name to, name author, asset quantity, string memo);
 
 	void send_tokens(name owner, const vector<backtoken::token_ex>& tokens, string memo);
 	void process_memo(name from, name to, const vector<backtoken::token_ex> & tokens, const string& memo);
